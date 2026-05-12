@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Outils</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="toolbar">
+<a href="index.html">Accueil</a>
+<a href="tools.html">Outils</a>
+</div>
+
+<h1>Boîte à outils</h1>
+
+<div class="card">
+<h2>Respiration</h2>
+<p id="breathText">Clique</p>
+<button onclick="breathe()">Respirer</button>
+</div>
+
+<div class="card">
+<h2>Bien-être</h2>
+<div class="meter">
+<div class="energy" id="energy"></div>
+</div>
+<button onclick="improveMood()">Améliorer</button>
+</div>
+
+<div class="card">
+<h2>Message</h2>
+<p id="msg"></p>
+<button onclick="message()">Encouragement</button>
+</div>
+
+</body>
+</html>
